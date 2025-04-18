@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    /* max-inline-size: 80vw;
+    margin: auto; */
+    line-height: 1.5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.header-txt{
+    padding: 9rem 6rem;
+}
+.header-txt p{
+    padding-block: 1.6rem;
+    font-weight: 500;
+}
+
+.img-bg{
+    background-image: url('../images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    max-inline-size: 80vw;
+    margin: auto;
+}
+.clear-btn{
+    padding: 1rem;
+    border-radius: 100px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+.blurred-btn{
+    background: rgba(0, 0, 0,0.1);
+    backdrop-filter: blur(5px);
+}
+main{
+    max-inline-size: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.main-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.card{
+    width: 300px;
+    min-height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    img {
+        width: 100%;
+        object-fit: cover;
+        max-height: 170px;
+        height: auto;
+        display: block;
+    }
+}
+.card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
