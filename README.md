@@ -1,1 +1,1 @@
-Netflift🔗 : www.wheretotravel4.netlify.app
+Netflift🔗 : https://wheretotravel4.netlify.app/
